@@ -40,7 +40,13 @@
                                 <td>{{producto.precio}}</td>
                                 <td>{{producto.descripcion}}</td>
                                 <td>
-                                    <VImg :src="getImageSrc(producto.imagen)"   width="70" height="70"/>
+                                    <VImg 
+                    :src="getImageSrc(producto.imagen)" 
+                    width="50" 
+                    height="50"
+                    lazy-src="/assets/img/loading.jpg"
+                    contain
+                  />
                                 </td>
                                 <td>
                                     <VBtn variant="text" color="warning" icon="mdi-pencil" @click="navigateTo(`/formularioProducto/${producto._id}`)"/>
