@@ -10,4 +10,12 @@ declare global{
         descripcion: string,
         imagen: string
     }
+
+    interface ICategoria{
+        _id: string,
+        nombre:string,
+        descripcion: string;
+        icono:string,
+
+    }
 }
