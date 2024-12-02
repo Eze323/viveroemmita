@@ -1,12 +1,11 @@
-
 <template>
-    <VContainer >
-        <h2 class="text-center">Productos</h2>
+   <VContainer >
+        <h2 class="text-center">Facturas</h2>
         <VRow>
             <VCol >
                 <VBtn 
                 icon="mdi-plus"
-                @click="navigateTo('/producto/formularioProducto')"
+                @click="navigateTo('/factura/formularioFactura')"
 
                 
                 />
@@ -100,3 +99,4 @@ const getImageSrc = (image: string) => {
 };
 
 </script>
+
