@@ -14,12 +14,12 @@
   
   // Define the data and options for the chart
   const chartData = ref({
-    labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+    labels: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'],
     datasets: [
       {
-        label: 'Sales',
+        label: 'Estadisticas',
         backgroundColor: '#42A5F5',
-        data: [40, 39, 10, 40, 39, 80, 40]
+        data: [1616336, 995440, 1799143, 2709183, 2674939, 2413572,4550508,5966128,9780582,12954964,6887657,5500000]
       }
     ]
   })

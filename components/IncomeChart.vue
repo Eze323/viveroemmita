@@ -65,8 +65,8 @@ const loadData = async (period: string) => {
         values: [8000, 9500, 8700, 10000]
       },
       monthly: {
-        labels: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun'],
-        values: [35000, 32000, 40000, 38000, 42000, 45000]
+        labels: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun','Jul','Ago','Sep','Oct','Nov','Dic'],
+        values: [1616336, 995440, 1799143, 2709183, 2674939, 2413572,4550508,5966128,9780582,12954964,6887657,5500000]
       }
     }[period]
 
