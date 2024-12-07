@@ -1,9 +1,9 @@
-export{}
+export { }
 
 
-declare global{
+declare global {
 
-    interface IProducto{
+    interface IProducto {
         _id: string,
         nombre: string,
         precio: number,
@@ -11,11 +11,19 @@ declare global{
         imagen: string
     }
 
-    interface ICategoria{
+    interface ICategoria {
         _id: string,
-        nombre:string,
+        nombre: string,
         descripcion: string;
-        icono:string,
+        icono: string,
 
+    }
+
+    interface IIngreso {
+        _id: string,
+        fecha: Date,
+        monto: number,
+        tipo: string,
+        descripcion: string,
     }
 }
